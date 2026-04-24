@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/tic-tac-toe/', // ← здесь точное имя твоего репозитория
+  base: '/TicTacToe/',
   plugins: [react(), tailwindcss()],
 })
